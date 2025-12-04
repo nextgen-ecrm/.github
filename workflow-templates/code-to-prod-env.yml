@@ -117,5 +117,5 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: 'CM: NARA Project Release Ready for Ops Deploy - PROD'
           body: 'A NARA Project Release is ready for Ops Deployment to PROD environment: ${{ steps.create_release.outputs.html_url }}'
-          to: ${{ secrets.EMAIL_USERNAME }}, derick.williams1@nara.gov, Sherli.Nambiar@nara.gov, michael.haines@nara.gov, baotram.le@nara.gov, falguni.jani@nara.gov, robert.bigsby@nara.gov
+          to: ${{ secrets.EMAIL_USERNAME }}, derick.williams1@nara.gov, Sherli.Nambiar@nara.gov, baotram.le@nara.gov, robert.bigsby@nara.gov
           from: QA_configmgt@nara.gov #${{ secrets.EMAIL_USERNAME }}, #janice.cobb@nara.gov, #seema.dheman@nara.gov
